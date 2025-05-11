@@ -1,0 +1,19 @@
+# /client/.elasticbeanstalk/config.yml
+branch-defaults:
+  main:
+    environment: task-manager-frontend
+    group_suffix: null
+global:
+  application_name: task-manager
+  branch: null
+  default_ec2_keyname: your-key-name
+  default_platform: Node.js 16
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: null
+  sc: git
+  workspace_type: Application
